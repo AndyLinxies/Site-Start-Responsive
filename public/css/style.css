@@ -1,0 +1,150 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+}
+/*Margin 0 pour enlever les espaces blancs au tours du site*/
+
+nav{
+    background-color: rgb(43, 61, 79);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    height: 10vh;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 15%;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.section-rouge{
+    /*height: 600px;*/
+    background-color: rgb(220, 56, 72);
+    width: 100%;
+}
+.logo-bonhome{
+    display: flex;
+    justify-content: center;
+}
+.logo-bonhome > img{
+    padding-top: 5%;
+    width: 20%;
+}
+/*Voir commentaire plus bas*/
+.start-css-rouge :nth-child(1){
+    font-size:40px;
+    margin-bottom: 0;
+    padding-left: 40%;
+    font-weight: 900;
+}
+.start-css-rouge{
+    color:white;
+    
+}
+.start-css-rouge :nth-child(2){
+    padding-left: 38%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/*Une width en % est suffisante. Height pas necessaire. % permet de rendre la page plus responsive*/
+h2{
+    text-align: center;
+}
+.icones-haut{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.icones-haut > img{
+    
+    border-radius: 5%;
+}
+
+.container img{
+    width: 30%;
+}
+.section-about{
+    /*height: 300px;*/
+    background-color:  rgb(220, 56, 72);
+    margin-top: 50px;
+    color: white;
+    width: 100%;
+}
+
+.section-about > div > h3{
+    font-size: 30px;
+    padding-left: 50%;
+    padding-top: 2%;
+}
+.texte{
+    display: flex;
+    justify-content: center;
+}
+.texte > p{
+    padding-left: 50px;
+}
+#texte-1{
+    width: 20%;
+}
+#texte-2{
+    width: 20%;
+}
+
+.contact > div > h3{
+    font-size: 30px;
+    padding-top: 10%;
+    padding-left: 50%;
+    font-weight:900 ;
+}
+.formulaire{
+    padding-left: 45%;
+}
+button{
+    height: 40px;
+    margin-top: 2%;
+    background-color: rgb(220, 56, 72);
+    border-radius: 5px;
+    color: white;
+    width: 10%;
+}
+.bas{
+    background-color: rgb(50, 59, 68);
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.bas > div{
+    margin-left: 8%;
+    color: white;
+}
+h5{
+    font-size: 100%;
+}
+
+.about-freelancer :nth-child(4){
+    color: green;
+
+}
+input{
+    width: 200px;
+}
+#msg{
+    height: 120px;
+}
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(43, 61, 79) ;
+}
